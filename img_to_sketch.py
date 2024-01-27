@@ -9,4 +9,9 @@ print(img)
 cv2.imshow('original image', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+imge = cv2.imread("dark.jpg")
+plt.imshow(imge)
+plt.axis(False)
+plt.show()
     
