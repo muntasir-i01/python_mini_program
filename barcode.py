@@ -1,5 +1,5 @@
-from barcode import EAN13
+from barcode import EAN8
 from barcode import ImageWriter
-number : '5901234123457'
-my_code = EAN13(number, ImageWriter())
-my_code.save("new_code 1")
+number = '5901234123457'
+my_code = EAN8(number)
+my_code.save("new_code")
